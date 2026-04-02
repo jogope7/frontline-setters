@@ -7,10 +7,9 @@ export default function Hero() {
     <section>
       <div className="bg-base-100 py-16 md:py-24 px-4 md:px-8">
         <div className="max-w-5xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-secondary leading-tight tracking-tight">
-            We handle your appointment setting.
-            <br className="hidden md:block" />
-            <span className="text-primary"> You just show up to meetings.</span>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.4rem] font-extrabold leading-tight tracking-tight">
+            <span className="block text-secondary">We handle your appointment setting.</span>
+            <span className="block text-primary">You just show up to meetings.</span>
           </h1>
 
           <p className="mt-6 text-lg md:text-xl text-gray-500 max-w-3xl mx-auto leading-relaxed">

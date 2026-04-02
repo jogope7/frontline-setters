@@ -17,7 +17,14 @@ export default function Navbar() {
             alt="Frontline Setters"
             width={160}
             height={40}
-            className="h-8 w-auto object-contain"
+            className="h-8 w-auto object-contain hidden md:block"
+          />
+          <Image
+            src="/logo/icon.png"
+            alt="Frontline Setters"
+            width={40}
+            height={40}
+            className="h-8 w-auto object-contain md:hidden"
           />
         </a>
       </div>
